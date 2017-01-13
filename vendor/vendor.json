@@ -1,6 +1,19 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "MMTiaUytYil8cQqY4oH7pxEoLgw=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "1aa2d4ca89885c0e519ca82420f3a245b78835c2",
+			"revisionTime": "2017-01-09T10:30:21Z"
+		},
+		{
+			"checksumSHA1": "VIp1lZm6joWhlNdwhady8u//qRw=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "1c35d901db3da928c72a72d8458480cc9ade058f",
+			"revisionTime": "2017-01-02T12:52:26Z"
+		}
+	],
 	"rootPath": "github.com/kd2718/gopie"
 }
