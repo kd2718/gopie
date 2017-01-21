@@ -3,10 +3,30 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "QD6LqgLz2JMxXqns8TaxtK9AuHs=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "2e00b5cd70399450106cec6431c2e2ce3cae5034",
+			"revisionTime": "2016-12-24T12:10:19Z"
+		},
+		{
 			"checksumSHA1": "MMTiaUytYil8cQqY4oH7pxEoLgw=",
 			"path": "github.com/jinzhu/gorm",
 			"revision": "1aa2d4ca89885c0e519ca82420f3a245b78835c2",
 			"revisionTime": "2017-01-09T10:30:21Z"
+		},
+		{
+			"checksumSHA1": "eECxSkwh0WmhLwaxHfkvcLOWS08=",
+			"path": "github.com/jinzhu/gorm/dialects/mysql",
+			"revision": "7fb9b62c17d90320e0582a4720db025c1652fd6a",
+			"revisionTime": "2017-01-16T01:48:06Z"
+		},
+		{
+			"path": "github.com/jinzhu/gorm/dialects/mysql\n\n;\n",
+			"revision": ""
 		},
 		{
 			"checksumSHA1": "VIp1lZm6joWhlNdwhady8u//qRw=",
