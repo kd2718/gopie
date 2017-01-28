@@ -14,6 +14,12 @@ type Person struct{
 	Male bool
 }
 
+type HccRecord struct{
+	gorm.Model
+	Hicno string `gorm:"type:varchar(50);index"`
+	Diag string `gorm:"type:varchar(50);"`
+}
+
 func main() {
 	fmt.Println("Some go code...")
 	fmt.Println("time now:", time.Now())
@@ -31,7 +37,10 @@ func main() {
 
 	var kory Person
 
-	conn.Where(&Person{Male: true}).First(&kory)
+	conn.Where(&Person{Male: false}).First(&kory)
+
+	kory.Male = true
+	conn.Update(&kory)
 
 	fmt.Println("Its a Me", kory.Name, kory.ID, kory.Age, kory.Male)
 }
